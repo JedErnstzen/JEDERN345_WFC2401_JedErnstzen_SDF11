@@ -21,6 +21,7 @@
             src="assets/component-1/navigation/cache-bank-logo.png" alt="Cache Bank Logo"
             />
         </div>
+        <!-- Navigation Links With Styling-->
         <!-- Add hidden back here when doing mobile part -->
          <div class="hidden md:flex items-center justify-between gap-12 text-black"> 
             <a href="#product" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Product</a>  
@@ -33,7 +34,8 @@
           <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Log In</button>
           <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
       </div>
-           
+
+       <!-- HAMGBURGER MENU -->
      <button class="md:hidden p-4" id="mobile-menu-toggle">
         <svg
         fill="none"
@@ -63,18 +65,21 @@
         </defs>
       </svg>
      </button>
+
+     <!-- LINKS FOR MOBILE VIEW -->
      <div class=" absolute flex md:hidden flex-col items-start shadow-main justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full px-4 py-4"
      id="mobile-menu"
      > 
-        <a href="" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Product</a> 
-        <a href="" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Features</a>
-        <a href="" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Get Started</a>
-        <a href="" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Contact</a>
+        <a href="#product" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Product</a> 
+        <a href="#features" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Features</a>
+        <a href="#getting-started" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Get Started</a>
+        <a href="#contact" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Contact</a>
 
         <button class="px-3 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Log In</button>
         <button class="px-3 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
     </div>
     </div>
+
     <!-- Component 2: Hero and Endorsement -->
     <!-- HERO -->
     <section class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5" id="product">
@@ -285,8 +290,8 @@
 <!-- END OF CARD SECTION -->
 </div>
 
-<!-- component-4: stats and getting started section -->
-<!-- stats -->
+<!-- Component-4: Stats and Getting Started section -->
+<!-- Stat Counters -->
 <div class="w-full" >
 
   <div class="container flex flex-col items-center gap-16 mx-auto my-32">
@@ -373,14 +378,14 @@
           </div>
       </div>
 
-<!-- component-5: contact and footer -->
+<!-- Component-5: Contact and Footer -->
         <!-- CONTACT -->
         <div class="w-full" id="contact">
-          <!--  grid container -->
+          <!--  Grid container -->
           <div class="container flex flex-col items-center gap-16 mx-auto my-32">
-              <!-- card-list -->
+              <!-- Card-list -->
               <div class="grid w-full grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-5 ">
-                  <!-- card -->
+                  <!-- Card 1-->
                   <div class="flex flex-col items-center gap-5 px-5 py-7 bg-white rounded-3xl shadow-main">
                       <span>
                       <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
@@ -391,7 +396,7 @@
                       <p class="text-base leading-7 text-dark-grey-600">Contact us</p>
                       <p class="text-lg font-bold text-green-500" href="mailto: hello@loopple.com" >hi@cachebank.com</p>
                   </div>
-                   <!-- card 2 -->
+                   <!-- Card 2 -->
                    <div class="flex flex-col items-center gap-5 px-5 py-7 bg-white rounded-3xl shadow-main">
                       <span>
                           <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
@@ -426,7 +431,7 @@
 </div>
 
 
-  <!-- Footer -->
+  <!-- Footer Containing the Links-->
   <div class="w-full bg-green-500">
       <div class="container flex flex-col mx-auto">
           <div class="flex flex-col items-center gap-6 mb-8">
@@ -485,7 +490,7 @@
   </div>
 
 
-
+    <!-- SCRIPTS -->
     <script>document.getElementById("mobile-menu-toggle").addEventListener("click", function () {document.getElementById("mobile-menu").classList.toggle("hidden"); } ); </script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/countto.js"></script>
