@@ -14,3 +14,7 @@ npm run build
 npm run build-minify
 
 ```
+
+# Loom Link: 
+
+# Presentation Link: https://1drv.ms/p/c/4aeabcf997f24503/Ebk1Rr1nYfpIjZfXmM0jskEB2WC7ls4F3tdFeRhbmQIbcA?e=1mWfVB
