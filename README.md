@@ -1,3 +1,8 @@
+
+### [SDF11] A front-end project styled with Tailwind CSS, using npm scripts to compile and minify the styles.
+
+
+
 # Installation
 
 ```
